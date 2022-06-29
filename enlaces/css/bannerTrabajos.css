@@ -1,0 +1,237 @@
+#bannerTrabajos{
+    margin-top: 50px;
+    position: relative;
+}
+
+#bannerTrabajos img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:768px){
+    #bannerTrabajos{
+        height: auto;
+        overflow: hidden;
+        
+    }
+    #bannerTrabajos img{
+        width: 100%;
+        height: auto;
+    }
+    #PrimerSemestre{
+        margin: 0%;
+    }
+}
+
+#PrimerSemestre{
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#PrimerSemestre article{
+    margin: 20px;
+    text-align: center; 
+}
+
+#PrimerSemestre .contenedor{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+}
+
+#PrimerSemestre h2{
+    padding-top: 2%;
+    margin: 2%;
+}
+
+#PrimerSemestre #text{
+    background: #444;
+    padding: 4%;
+    border-radius: 5%;
+}
+
+#PrimerSemestre img{
+    width: 100%;
+    max-width: 400px;
+    min-height: 250px;
+}
+
+#SegundoSemestre{
+    text-align: center;
+}
+
+#SegundoSemestre article{
+    margin: 20px;
+    text-align: center; 
+}
+
+#SegundoSemestre .contenedor{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+}
+
+#SegundoSemestre h2{
+    padding-top: 2%;
+    margin: 2%;
+}
+
+#SegundoSemestre #text{
+    background: #4445;
+    padding: 4%;
+    border-radius: 5%;
+}
+
+#SegundoSemestre img{
+    width: 100%;
+    max-width: 400px;
+    min-height: 250px;
+}
+
+#TercerSemestre{
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#TercerSemestre article{
+    margin: 20px;
+    text-align: center; 
+}
+
+#TercerSemestre .contenedor{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+}
+
+#TercerSemestre h2{
+    padding-top: 2%;
+    margin: 2%;
+}
+
+#TercerSemestre #text{
+    background: #444;
+    padding: 4%;
+    border-radius: 5%;
+}
+
+#TercerSemestre img{
+    padding-top: 10%;
+    width: 100%;
+    max-width: 400px;
+    min-height: 250px;
+}
+#TercerSemestreimagenes{
+    text-align: center;
+}
+#TercerSemestreimagenes .contenedor{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+}
+
+#TercerSemestreimagenes h2{
+    padding-top: 2%;
+    margin: 2%;
+}
+#TercerSemestreimagenes img{
+
+    width: 100%;
+    max-width: 400px;
+    min-height: 250px;
+}
+
+
+#TercerSemestreimagenes article{
+    margin: 10px;
+    text-align: center; 
+}
+
+#TercerSemestreimagenesMas{
+    text-align: center;
+    background: #333;
+
+}
+#TercerSemestreimagenesMas .contenedor{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+}
+
+#TercerSemestreimagenesMas h2{
+    padding-top: 2%;
+    margin: 2%;
+}
+#TercerSemestreimagenesMas img{
+
+    width: 100%;
+    max-width: 400px;
+    min-height: 250px;
+}
+
+
+#TercerSemestreimagenesMas article{
+    margin: 10px;
+    text-align: center; 
+}
+
+#TercerSemestreimagenesMasMas{
+    text-align: center;
+
+}
+#TercerSemestreimagenesMasMas .contenedor{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+}
+
+#TercerSemestreimagenesMasMas h2{
+    padding-top: 2%;
+    margin: 2%;
+}
+#TercerSemestreimagenesMasMas img{
+
+    width: 100%;
+    max-width: 400px;
+    min-height: 250px;
+}
+
+
+#TercerSemestreimagenesMasMas article{
+    margin: 10px;
+    text-align: center; 
+}Mas
+
+
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy{
+    font-size: 20px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a{
+    color: #333;
+    text-decoration: none;
+}
+@media(min-width:1024px){ 
+    .sociales{
+        width: auto;
+    }
+    
+    footer .contenedor{
+        justify-content: space-between;
+    }

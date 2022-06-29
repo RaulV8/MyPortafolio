@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>CONTACTOS</title>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=divice-width, uder.scalable=no, initial-scale=1, minimum-scale=1">
+         <link rel="stylesheet" href="css/fontello.css">
+         <link rel="stylesheet" href="css/estiloContact.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="contenedor">
+                <h1 class="icon-contacts">Contactos</h1>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                   <a class="icon-home" href="../index.html">Home</a>
+                   <a class="icon-user" href="Perfil.html">Perfil</a>
+                   <a class="icon-doc" href="curriculum.html">Curriculm</a>
+                   <a class="icon-book" href="proyectos.html">Proyectos</a>
+                   <a class="icon-network" href="trabajos.html">Trabajos</a>
+                   <a class="icon-contacts" href="contactos.html">Contactos</a> 
+                   
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <form action="enviar.php" method="post">
+                   <input type="Nombre" placeholder="Nombre" required> 
+                    <input type="Correo" placeholder="Correo" required> 
+                     <input type="Telefono" placeholder="Telefono" required> 
+                     <textarea name="Mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
+                     <input type="submit" value="Enviar" id="boton">
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
